@@ -1,4 +1,4 @@
-This project is cloned and republished, because the orginally repository is created by NTNUs GitHub Classroom. The repo is private and forking is disable. Collaborated with two fellow students. 
+This project is cloned and republished, because the orginally repository is created by NTNUs GitHub Classroom. That repo is private and forking is disable. I collaborated with two fellow students. 
 
 # INITIALIZE
 
