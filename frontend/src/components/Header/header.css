@@ -1,0 +1,119 @@
+header {
+  background-color: #3E83C4;
+  height: 50px;
+}
+
+header .logo {
+  padding: .5em;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* fra oblig 3 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 2rem 1rem;
+  font-size: 2em;
+}
+
+.login {
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  font-size: 1.5em;
+  position: absolute;
+  right: 0;
+}
+
+.logout {
+  text-decoration: underline;
+}
+
+ul {
+  display: none;
+  flex-direction: column;
+}
+
+.burger {
+  display: block;
+  background-color: #3E83C4;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 50px;
+  z-index: 10;
+  position: relative;
+}
+
+.burger li {
+  padding: 10px 0;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.close {
+  background-color: #3E83C4;
+  height: 30px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+/* .current {
+    text-decoration: underline;
+  } */
+
+@media (min-width: 1100px) {
+  header {
+    height: 52px;
+  }
+
+  .navbar-desktop {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .toggle-button {
+    display: none;
+  }
+
+  nav {
+    justify-content: end;
+  }
+
+  a:hover {
+    text-decoration: underline white;
+  }
+}

@@ -1,0 +1,8 @@
+.landingtext {
+    max-width: 60ch;
+    margin: 3em auto;
+}
+
+.landingtext p {
+    padding: .5em 2em;
+}

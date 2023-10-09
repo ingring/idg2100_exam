@@ -1,0 +1,98 @@
+:root {
+    --main-text-color: white;
+    --table-color: #3E83C4;
+    --table-lines: white;
+    --table-text-color: white;
+    --settings-color: black;
+    --settings-text-color: white;
+    --form-text-color: white;
+    --form-background-color: black;
+    --background-color:#9b2c29;
+    --scoreboard-background: black;
+    --points-color: white;
+    --set-color: red;
+    --reset-button-color: red;
+    --reset-button-hover: #8F0000;
+    --reset-button-text: white;
+    --color-blink: black;
+}
+
+.newmatch{
+    background-color: var(--background-color);
+    padding: 2rem 0;
+}
+
+.login-links-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.unauthorized {
+    display: flex;
+    flex-direction: column;
+}
+
+.unauthorized div {
+    margin: auto auto;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.unauthorized div p {
+    font-size: 1.8em;
+    margin: 20px;
+}
+
+.unauthorized img {
+    margin: 0 auto;
+    width: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.pageNotFound {
+    display: flex;
+    flex-direction: column;
+}
+
+.pageNotFound div {
+    margin: auto auto;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.playermatches {
+    margin-top: 6em;
+}
+
+.form-page {
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+
+@media (min-width: 600px) {
+    .login-links-container{
+        flex-direction: row;
+    }
+
+    .form-page {
+        max-width: 40vw;
+    }
+}
+
+.profilecontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.profilecontainer *{
+    width: 100%;
+}
+

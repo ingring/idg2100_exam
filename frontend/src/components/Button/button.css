@@ -1,0 +1,36 @@
+input[type=submit].input-btn,.onclickbtn {
+    background-color: #3E83C4;
+    color: white;
+    border: none;
+    width: fit-content;
+    padding: 0.3em 2em;
+    border-radius: .5em;
+    /* bottom: -2.2em; */
+    transition: 0.1s;
+    margin: 20px auto;
+    cursor: pointer;
+}
+  
+input[type=submit].input-btn:hover, input[type=submit].input-btn:focus-visible,.onclickbtn:hover,.onclickbtn:focus-visible {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px grey;
+    transition: 0.1s;
+}
+
+.onclickbtn{
+    font-size: 1em;
+}
+
+.deletebtn, .editbtn {
+    background: none;
+    border: none;
+    transition: 0.1s;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.deletebtn svg:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+

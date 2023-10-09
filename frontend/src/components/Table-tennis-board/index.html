@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
+    <title>Oblig 1 | Web components | IDG2100</title>
+    <link rel="stylesheet" href="./assets/core.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body class="tennis-green">
+    <header>
+      <h1>Table tennis scoreboard</h1>
+    </header>
+    <main>
+      <scoreboard-counter
+        showplayers="false"
+        showsets="false"
+        settings=""
+        showprevioussets=""
+        winbestof=""
+        serverotation=""
+        to-serve=""
+        player1=""
+        player2=""
+      ></scoreboard-counter>
+    </main>
+    <section id="tennis-result"></section>
+
+    <footer>Trym Simensen Nerem - 19/02/2023</footer>
+
+    <script>
+      function sendForm() {
+        const event = new Event("testingEvent");
+        document.dispatchEvent(event);
+      }
+
+      const sectionResult = document.querySelector("#tennis-result");
+      document.addEventListener("game-finished", (e) => {
+        //get and format date + create date string
+        const now = new Date();
+        let day = now.getDate();
+        if (day < 10) day = "0" + day;
+        let month = now.getMonth() + 1;
+        if (month < 10) month = "0" + month;
+        const year = now.getFullYear();
+        let hour = now.getHours();
+        if (hour < 10) hour = "0" + hour;
+        let minute = now.getMinutes();
+        if (minute < 10) minute = "0" + minute;
+        const date = `${day}/${month}/${year} ${hour}:${minute}`;
+
+        //create the p element and assign date + result
+        result = document.createElement("p");
+        result.innerHTML = date;
+        result.innerHTML += ` - ${e.detail.player1} vs ${e.detail.player2}. Result: ${e.detail.result}. Winner: ${e.detail.winner}`;
+        sectionResult.appendChild(result);
+      });
+    </script>
+    <script src="components/scoreboard.js" type="module"></script>
+  </body>
+</html>

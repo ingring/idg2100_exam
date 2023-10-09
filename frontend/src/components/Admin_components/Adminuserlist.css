@@ -1,0 +1,55 @@
+.user:nth-child(odd){
+    background-color: #ffffff ;
+}
+
+.user:nth-child(even){
+    background-color: #D9D9D9;
+}
+
+thead.user th{
+    text-align: left;
+}
+
+tr.user {
+    padding: 0.5em 0;
+}
+
+tr.user td {
+    display: flex;
+    /* justify-self: center; */
+}
+
+.user{
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 1fr 1fr;
+    font-size: 1.4em;
+}
+
+
+.usertable{
+    width: 100vw;
+    margin-bottom: 2em;
+}
+
+.user button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.user button:hover{
+    transform: scale(1.1);
+}
+
+@media (min-width: 600px) {
+    .user {
+        grid-template-columns: 4fr 4fr 1.5fr 1.5fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .usertable {
+        width: 70vw;
+    }
+}

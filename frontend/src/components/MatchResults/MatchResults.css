@@ -1,0 +1,88 @@
+.show-match{
+    margin-top: 2em;
+    font-size: 1.4em;
+    width: 70vw;
+    padding: 0.3em 1em 1em;
+    border-radius: 0.4em;
+}
+
+.show-match .score {
+    background-color: #273043;
+    font-size: 2em;
+    color: white;
+    font-weight: 600;
+    padding: 0 1em 0em;
+    margin: 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-match .score div {
+    align-self: center;
+}
+
+.score {
+    flex-direction: column;
+}
+
+.show-match .sets {
+    padding: 0em 1em 1.2em;
+    color: white;
+    background-color: #273043;
+}
+.score {
+    border-radius: 50px 50px 0 0;
+}
+.sets {
+    padding: 0em 0em 2em;
+    border-radius: 0 0 50px 50px;
+}
+
+.sets > p {
+    font-size: 2em;
+    margin-bottom: 0.4em;
+}
+
+.show-match .sets li {
+    color: white;
+    align-items: center;
+    display: flex;
+    min-width: 10ch;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.show-match .sets li .set-score {
+    flex: 1;
+    text-align: center;
+}
+
+.show-match .sets li .separator {
+    padding: 0 5px;
+}
+
+article.show-match > p:first-child{
+    margin-bottom: 0.4em;
+    width: 100%;
+    text-align: end;
+}
+
+.show-match .match-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.show-match .match-date {
+    text-align: right;
+}
+
+.show-match .match-winner {
+    padding: 20px 0;
+}
+
+@media (min-width: 400px) {
+    .show-match .score {
+        font-size: 2.5em;
+    }
+}

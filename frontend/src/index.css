@@ -1,0 +1,261 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+span.green {
+  color: #57EF85;
+}
+
+span.yellow {
+  color: yellow;
+}
+
+span.green {
+  color: #57EF85;
+}
+
+/* #root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 10vh 1fr 10vh;
+} */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom properties */
+:root {
+  --color-h1: #545E75;
+  --primary-color-blue: #3E83C4;
+  --color-dark-blue: #273043;
+}
+
+h1 {
+  font-size: 3em;
+  color: var(--color-h1);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  color: var(--color-h1);
+  text-align: center;
+  padding: 20px 0 10px;
+}
+
+main {
+  min-height: 86vh;
+  padding: 40px 0;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.socket-parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+section.scoreboard {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+p.sets {
+  color: red;
+  background-color: black;
+  height: 2em;
+  padding: 0.4em 0.8em 1.8em;
+  font-size: 1.4em;
+  border-radius: 0 0 30% 0 ;
+}
+p.sets:nth-child(1) {
+  border-radius: 0 0 0 30%;
+}
+
+main.socket {
+  padding-top: 0;
+}
+
+section.scoreboard > .player {
+  font-size: 2em;
+  padding: 0em 1em;
+}
+
+p.points {
+  padding: 0.8em 0.9em 0.8em 0.6em;
+  background-color: black;
+  font-size: 2em;
+  color: white;
+  border-radius: 0 0 30% 0;
+}
+p.points:nth-child(2) {
+  padding: 0.8em 0.6em 0.8em 0.9em;
+  border-radius: 0 0 0 30%;
+}
+div.scoreboard {
+  display: flex;
+}
+
+section.table p {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0.8em;
+  color: white;
+}
+
+section.table{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4em;
+  grid-template-rows: 1fr 1fr;
+  width: 80vw;
+  max-width: 800px;
+  aspect-ratio: 2 / 1;
+  margin: 2em auto;
+}
+
+dialog{
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 1.6em;
+  border-radius: 30px;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+dialog > p {
+  font-size: 1.8em;
+  line-height: 1.5em;
+}
+dialog > h2 {
+  font-size: 2.4em;
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
+.loader {
+  display: inline-block;
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: .8em;
+  height: .8em;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width:700px) {
+  section.table{
+    width: 100vw;
+  }
+  section.table p{
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .socket-parent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: none;
+    font-size: 0.7em;
+  }
+  .socket-join > form {
+    margin-bottom: 50px;
+  }
+
+}
+
+section.table > div {
+  background-color: #3E83C4;
+  width:100%;
+}
+
+section.table > div > button{
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-color: #3E83C4;
+  cursor: pointer;
+  color: white;
+}
+
+section.table > div > button:hover,section.table > div > button:focus-visible{
+  background-color: #58a4eb;
+  border: 2px solid black;
+}
+
+section.scores {
+  font-size: 2em;
+  text-align: center;
+}
+
+div.socket-join > form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.centered {
+  text-align: center;
+}
+
+span.bold {
+  font-weight: 500;
+}
+
+div.form {
+  display: grid;
+  place-items: center;
+  height: fit-content;
+  margin-top: 3em;
+  margin-left: 1em;
+}
+
+div.centered {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.flex-centered{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.test{width: 70vw;
+height: 70vh;}
+
+.hidden{
+  display: none;
+}

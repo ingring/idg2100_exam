@@ -1,0 +1,139 @@
+Requirements_til_eksamen
+
+Wireframes:
+
+Sider:
+
+Home:
+    - Tekst som informerer om hva man gjøre på nettside
+    - Vise ranking av de 5 best rangerte spillerne med (rank) 
+        *points og username --> #hvis logget inn vis deg selv også
+    - Vise totalt antall spillere og matcher spilt
+Leaderboard[playerlist]:
+    - Markert på en måte der -deg_selv er på lista
+    - Du kan [trykke] på en spiller og markere som -myFavourites
+
+Profile:
+    - Se profildata
+    - Endre brukernavn, passord, navn
+    -Favourites
+        - se rank + username + points 
+            - se hvor du er i forhold
+    
+Matches: #accessible only for players
+    -Loggedin see list of Matches
+    -Notloggedin nothing
+
+Match:
+    -Unplayed. Form hvor brukernavn til player 1 og player 2 skrives.
+        - Redirected til web component der matchen spilles(ish)
+        - trykke på [send inn] --> Begge spillere må skrive passord
+    -Played. Matchstatistikk fra kampen med gitt kampID
+        - \søkefunksjon_når_man_skal_velge_motspiller/
+
+    [{--------- SOCKET ---------}]
+
+Admin:
+    -Users 
+        -Endre passord på brukere [sende mail] 
+        -Edit brukere
+    -Matches   
+        -Endre kamper [Oppdatere rank]
+        -Slette kamper [Oppdatere rank]
+        -Lage kamper [Oppdatere rank] 
+
+
+
+Stjerner
+ [{--1--}] 29/29
+
+    -landing
+        info om sia [x] 
+        tot spillere [x] 
+        tot matches [x]
+        top 5 [x] 
+        registrere nye brukere [x] 
+
+    -Profile
+        ikke access når ikke logga inn [x] 
+        Lese og modifye egen data [x] 
+        admin ikke access? [x] 
+
+    -newmatch
+        ikke access når ikke logga inn [x] 
+        lage ny match [x] 
+        legge inn poeng til vinnere og taper [x] 
+        admin kan lage match med resultater [x] 
+
+    -enkelmatch
+        ikke access når ikke logga inn [x] 
+        skal ikke kunne redigere match resultat [x] 
+        admin kan se alle matcher [x] 
+
+    -playermatches
+        ikke access når ikke logga inn [x] 
+        players se (kun) dem du har vært med i [x] 
+        admin kan se alle matches men ikke players [x] 
+
+    -Leaderboard
+        ikke access når ikke logga inn [x] 
+        se alle spillere rangert etter score [x] 
+        bookmark Favourites [x]  
+        se favourite [x] 
+        admin se alle spillere [x] 
+
+    -admin
+        no access for unverified[x] 
+        no access for players[x] 
+        se liste over users [x] 
+        redigere users [x] 
+        endre passord for users [x] 
+
+    -general
+        exportere db med dummydata [x] 
+
+
+
+ [{--2--}] 16/16
+
+    -newmatch  
+        lage match med webcomponent [x] 
+
+    -enkelmatch
+        admin kan redigere score/db oppdateres [x] 
+        admin kan slette match/db oppdateres [x] 
+
+    -match
+        Redirect til new match om match ikke fins [x] 
+
+    -admin
+        delete users[x]
+
+    -general    
+        dokumentere med swagger [x]
+        bra readme med setup, scripts for å sette opp lokalt [x] 
+        appropriate theme [x] 
+
+
+ [{--3--}] 12/15
+
+    -Landing?
+        sende validation email [X] 
+    
+    -admin  
+        sende nytt passord til brukere [X]
+        dokumentere med storybook [x] 
+        [REFRESHTOKEN!!] [X] 
+        best practices usability [x] 
+
+ [{--9--}]
+
+    -SOCKET [-----X-----] 
+        
+
+{[---TOT---]}
+
+
+
+    60/60 
+    69/69 [*SOCKET*]

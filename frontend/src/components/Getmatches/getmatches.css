@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .matchlist {
+    overflow: scroll;
+    max-height: 80vh;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  } */
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .display-scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 5%;
+    font-size: 25px;
+  }
+  
+  .player1-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 50px;
+    border-right: 3px solid #3E83C4;
+    border-bottom-left-radius: 5px;
+    border-bottom: 3px solid #3E83C4;
+    border-left: 3px solid #3E83C4;
+  }
+  
+  .player1-stats p:first-child {
+    justify-content: start;
+    margin-left: 3%;
+  }
+  
+  .player1-stats p:last-child {
+    justify-content: end;
+    margin-right: 4%;
+  }
+  
+  .player2-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 50px;
+    border-bottom-right-radius: 5px;
+    border-right: 3px solid #3E83C4;
+    border-bottom: 3px solid #3E83C4;
+  }
+  
+  .player2-stats p:first-child {
+    justify-content: start;
+    margin-left: 4%;
+  }
+  
+  .player2-stats p:last-child {
+    justify-content: end;
+    margin-right: 3%;
+  }
+  
+  .date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    background-color: #3E83C4;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    padding: 1%;
+    position: relative;
+    font-size: 1.2em;
+  }
+
+  .gameNum {
+    position: absolute;
+    right: 0;
+    padding: 0 8px;
+  }
+  
+  .gameNum-button{
+    position: absolute;
+    right: 0;
+    /* padding: 0 15px; */
+    /* margin: 2px; */
+    background-color: white;
+    border-radius: 20%;
+    height: 100%;
+    width: 33px;
+    /* border: none; */
+    border: 2px #3E83C4 solid;
+    font-size: 1em;
+    color: #3E83C4;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .gameNum-button:hover, .gameNum-button:focus-visible {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px grey;
+    transition: 0.1s;
+  }
+
+  @media (min-width: 800px){
+    .matchlist {
+        width: 60vw;
+        margin: 0 auto;
+    }
+
+    .display-scores{
+      margin-bottom: 4%;
+    }
+  
+    .date{
+      max-height: 2rem;
+    }
+  }

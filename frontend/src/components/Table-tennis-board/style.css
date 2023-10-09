@@ -1,0 +1,93 @@
+/* Your styles go here */
+:root {
+    --main-text-color: white;
+    --table-color: #3E83C4;
+    --table-lines: white;
+    --table-text-color: white;
+    --settings-color: black;
+    --settings-text-color: white;
+    --form-text-color: white;
+    --form-background-color: black;
+    --background-color:#9b2c29;
+    --scoreboard-background: black;
+    --points-color: white;
+    --set-color: red;
+    --reset-button-color: red;
+    --reset-button-hover: #8F0000;
+    --reset-button-text: white;
+    --color-blink: black;
+}
+
+body.tennis-green {
+    --main-text-color: white;
+    --table-color: #4f9660;
+    --table-lines: white;
+    --table-text-color: white;
+    --settings-text-color: black;
+    --settings-color: #4f9660;
+    --settings-hover-color: white;
+    --form-text-color: black;
+    --form-background-color: white;
+    --background-color:#8cb1c8;
+    --scoreboard-background: white;
+    --points-color: black;
+    --set-color: red;
+    --reset-button-color: red;
+    --reset-button-hover: #8F0000;
+    --reset-button-text: white;
+    --color-blink: red;
+}
+
+body {
+    background-color: var(--background-color);
+    overflow-X: hidden;
+}
+
+
+h1 {
+    color: var(--main-text-color);
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 2 / 1;
+}
+
+scoreboard-counter {
+    width: 80%;
+    height: 90%;
+    aspect-ratio: 2;
+    margin: 0 10%;
+}
+
+section > p {
+    color: var(--main-text-color);
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 0.8rem;
+    }
+    scoreboard-counter {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.7rem;
+    }
+    scoreboard-counter {
+        width: 100%;
+        margin: 0%;
+    }
+
+    main {
+        aspect-ratio: 1/ 1;
+    }
+}

@@ -1,0 +1,15 @@
+.aside{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+}
+
+.aside *{
+    width: 100%;
+}
+
+.input{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}

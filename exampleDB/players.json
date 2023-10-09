@@ -1,0 +1,147 @@
+[{
+  "_id": "6475ad8e33e2f2444006c162"
+  ,
+  "email": "hvagjodu@hotmale.no",
+  "password": "$2b$10$jIsve66xh7qsPGGEBqfBQut9fynEV3I2ZWW2ivAazVJ68unpu1D8a",
+  "username": "havala",
+  "firstName": "havala",
+  "surname": "vlyday",
+  "department": "ligma",
+  "points": 13,
+  "wins": 3,
+  "games": 7,
+  "role": "User",
+  "favourites": [],
+  "__v": 0
+},{
+  "_id": "6475adb733e2f2444006c166"
+  ,
+  "email": "trymmern@lok.no",
+  "password": "$2b$10$mBRvksxJfhFkThn.powCK.Vy2.SB2dw85ixRLKe9gdrP2/fp/eZHK",
+  "username": "trymnene",
+  "firstName": "trym",
+  "surname": "nære",
+  "department": "utenefor",
+  "points": 14,
+  "wins": 4,
+  "games": 6,
+  "role": "User",
+  "favourites": [
+    {
+      "_id": "6475ad8e33e2f2444006c162"
+    },
+    {
+      "_id": "6475ae5133e2f2444006c176"
+    },
+    {
+      "_id": "6475b01633e2f2444006c18a"
+    }
+  ],
+  "__v": 3
+},{
+  "_id": "6475add633e2f2444006c16a"
+  ,
+  "email": "ingrid@erglad.no",
+  "password": "$2b$10$hCncwEHdtaSfMlTYMVtLousJikzkcyLv8vD6LNNpeM1uI/.A/tU12",
+  "username": "ingrid",
+  "firstName": "Ingrid",
+  "surname": "Surheim",
+  "department": "ikkeglad",
+  "points": 18,
+  "wins": 5,
+  "games": 8,
+  "role": "User",
+  "favourites": [
+    {
+      "_id": "6475ae5133e2f2444006c176"
+    },
+    {
+      "_id": "6475b01633e2f2444006c18a"
+    }
+  ],
+  "__v": 2
+},{
+  "_id": "6475adf733e2f2444006c16e"
+  ,
+  "email": "admin@adm.no",
+  "password": "$2b$10$2xmJwkcij6XWYxnKMobcHeaOiyhsCJwCM4EmOr3lDx2dRfeAZpi8K",
+  "username": "admin",
+  "firstName": "admin",
+  "surname": "adminson",
+  "department": "administrator",
+  "points": 0,
+  "wins": 0,
+  "games": 0,
+  "role": "Admin",
+  "favourites": [
+    {
+      "_id": "6475add633e2f2444006c16a"
+    },
+    {
+      "_id": "6475af8633e2f2444006c17a"
+    },
+    {
+      "_id": "6475adb733e2f2444006c166"
+    }
+  ],
+  "__v": 3
+},{
+  "_id": "6475ae5133e2f2444006c176"
+  ,
+  "email": "lost@car.no",
+  "password": "$2b$10$pDHaUH40BMDHylxyDO4Qze9wTBzPSugRTfISNNrK1PfQkLoUGBDRK",
+  "username": "carlos",
+  "firstName": "car",
+  "surname": "loss",
+  "department": "wherecar",
+  "points": 0,
+  "wins": 0,
+  "games": 0,
+  "role": "Admin",
+  "favourites": [
+    {
+      "_id": "6475af8633e2f2444006c17a"
+    },
+    {
+      "_id": "6475adb733e2f2444006c166"
+    },
+    {
+      "_id": "6475add633e2f2444006c16a"
+    }
+  ],
+  "__v": 3
+},{
+  "_id": "6475af8633e2f2444006c17a"
+  ,
+  "email": "simenhell@gmail.com",
+  "password": "$2b$10$P6aCu6/ZLnA2/Do8pF1MJOgd2/Dta1KjkEf9YEdCBdw1AoUAu3yZm",
+  "username": "simen",
+  "firstName": "simen",
+  "surname": "frognis",
+  "department": "bestitest",
+  "points": 11,
+  "wins": 2,
+  "games": 7,
+  "role": "User",
+  "favourites": [
+    {
+      "_id": "6475ad8e33e2f2444006c162"
+    }
+  ],
+  "__v": 1
+},{
+  "_id": "6475b01633e2f2444006c18a"
+  ,
+  "email": "nei@ikkefaen.no",
+  "password": "$2b$10$Nq2i8bdlKsIuzT64LAiN4eKH2.zg26Bmr/PeYhKrF.YVgZ1AbQcMq",
+  "username": "ingird",
+  "firstName": "ingird",
+  "surname": "ring",
+  "department": "gladhjem",
+  "points": 0,
+  "wins": 0,
+  "games": 0,
+  "role": "Unverified",
+  "favourites": [],
+  "__v": 0
+}]

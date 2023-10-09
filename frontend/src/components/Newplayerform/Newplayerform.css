@@ -1,0 +1,37 @@
+dialog{
+    z-index: 0;
+    margin:  auto;
+}
+
+.newPlayer-dialog {
+    padding: 20px;
+}
+
+dialog.newPlayer-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.50);
+  }
+
+.newPlayer-dialog .player1 {
+    font-size: 32px;
+}
+
+.newPlayer-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    gap: 0.4em;
+    position: relative;
+    margin: .5em 0em;
+}
+
+.newPlayer-form .buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+@media (min-width: 600px) {
+    .newPlayer-form .buttons {
+        flex-direction: row;
+    }
+}

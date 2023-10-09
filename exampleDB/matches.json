@@ -1,0 +1,295 @@
+[{
+  "_id":"6475b4a3e70f8ff644c8e728"
+  ,
+  "player1": {
+    "username": "havala",
+    "_id": "6475b4a3e70f8ff644c8e729"
+    
+  },
+  "player2": {
+    "username": "trymnene",
+    "_id": "6475b4a3e70f8ff644c8e72a"
+    
+  },
+  "scorePlayer1": 2,
+  "scorePlayer2": 3,
+  "winner": "trymnene",
+  "result": "(11 - 6)(2 - 11)(11 - 5)(0 - 11)(0 - 11)",
+  "date": "2023-05-30T08:32:35.160Z"
+  ,
+  "matchId": 1,
+  "__v": 0
+},{
+  "_id": "6475b4b7e70f8ff644c8e734"
+  ,
+  "player1": {
+    "username": "havala",
+    "_id": "6475b4b7e70f8ff644c8e735"
+    
+  },
+  "player2": {
+    "username": "trymnene",
+    "_id": "6475b4b7e70f8ff644c8e736"
+    
+  },
+  "scorePlayer1": 3,
+  "scorePlayer2": 1,
+  "winner": "havala",
+  "result": "(11 - 4)(2 - 11)(11 - 1)(11 - 0)",
+  "date": "2023-05-30T08:32:55.238Z"
+  ,
+  "matchId": 2,
+  "__v": 0
+},{
+  "_id": "6475b4cbe70f8ff644c8e740"
+  ,
+  "player1": {
+    "username": "havala",
+    "_id": "6475b4cbe70f8ff644c8e741"
+    
+  },
+  "player2": {
+    "username": "ingrid",
+    "_id": "6475b4cbe70f8ff644c8e742"
+    
+  },
+  "scorePlayer1": 2,
+  "scorePlayer2": 3,
+  "winner": "ingrid",
+  "result": "(11 - 9)(11 - 6)(3 - 11)(1 - 11)(0 - 11)",
+  "date": "2023-05-30T08:33:15.571Z"
+  ,
+  "matchId": 3,
+  "__v": 0
+},{
+  "_id":"6475b4dee70f8ff644c8e74c"
+  ,
+  "player1": {
+    "username": "havala",
+    "_id": "6475b4dee70f8ff644c8e74d"
+    
+  },
+  "player2": {
+    "username": "ingrid",
+    "_id": "6475b4dee70f8ff644c8e74e"
+    
+  },
+  "scorePlayer1": 1,
+  "scorePlayer2": 3,
+  "winner": "ingrid",
+  "result": "(4 - 11)(11 - 0)(1 - 11)(10 - 12)",
+  "date":"2023-05-30T08:33:34.754Z"
+  ,
+  "matchId": 4,
+  "__v": 0
+},{
+  "_id": "6475b501e70f8ff644c8e776"
+  ,
+  "player1": {
+    "username": "ingrid",
+    "_id": "6475b501e70f8ff644c8e777"
+    
+  },
+  "player2": {
+    "username": "havala",
+    "_id": "6475b501e70f8ff644c8e778"
+    
+  },
+  "scorePlayer1": 3,
+  "scorePlayer2": 1,
+  "winner": "ingrid",
+  "result": "(11 - 0)(11 - 6)(4 - 11)(11 - 3)",
+  "date": "2023-05-30T08:34:09.074Z"
+  ,
+  "matchId": 5,
+  "__v": 0
+},{
+  "_id": "6475b512e70f8ff644c8e782"
+  ,
+  "player1": {
+    "username": "ingrid",
+    "_id": "6475b512e70f8ff644c8e783"
+    
+  },
+  "player2": {
+    "username": "simen",
+    "_id": "6475b512e70f8ff644c8e784"
+    
+  },
+  "scorePlayer1": 1,
+  "scorePlayer2": 3,
+  "winner": "simen",
+  "result": "(11 - 7)(2 - 11)(0 - 11)(0 - 11)",
+  "date": "2023-05-30T08:34:26.996Z"
+  ,
+  "matchId": 6,
+  "__v": 0
+},{
+  "_id": "6475b521e70f8ff644c8e78e"
+  ,
+  "player1": {
+    "username": "ingrid",
+    "_id": "6475b521e70f8ff644c8e78f"
+    
+  },
+  "player2": {
+    "username": "trymnene",
+    "_id": "6475b521e70f8ff644c8e790"
+    
+  },
+  "scorePlayer1": 3,
+  "scorePlayer2": 0,
+  "winner": "ingrid",
+  "result": "(11 - 0)(11 - 0)(11 - 0)",
+  "date": "2023-05-30T08:34:41.010Z"
+  ,
+  "matchId": 7,
+  "__v": 0
+},{
+  "_id": "6475b53ae70f8ff644c8e7a9"
+  ,
+  "player1": {
+    "username": "simen",
+    "_id": "6475b53ae70f8ff644c8e7aa"
+    
+  },
+  "player2": {
+    "username": "havala",
+    "_id": "6475b53ae70f8ff644c8e7ab"
+    
+  },
+  "scorePlayer1": 2,
+  "scorePlayer2": 3,
+  "winner": "havala",
+  "result": "(11 - 0)(1 - 11)(0 - 11)(11 - 9)(9 - 11)",
+  "date": "2023-05-30T08:35:06.385Z"
+  ,
+  "matchId": 8,
+  "__v": 0
+},{
+  "_id": "6475b54ce70f8ff644c8e7b5"
+  ,
+  "player1": {
+    "username": "simen",
+    "_id": "6475b54ce70f8ff644c8e7b6"
+    
+  },
+  "player2": {
+    "username": "ingrid",
+    "_id": "6475b54ce70f8ff644c8e7b7"
+    
+  },
+  "scorePlayer1": 1,
+  "scorePlayer2": 3,
+  "winner": "ingrid",
+  "result": "(4 - 11)(11 - 2)(1 - 11)(0 - 11)",
+  "date": "2023-05-30T08:35:24.547Z"
+  ,
+  "matchId": 9,
+  "__v": 0
+},{
+  "_id": "6475b55ce70f8ff644c8e7c3"
+  ,
+  "player1": {
+    "username": "simen",
+    "_id": "6475b55ce70f8ff644c8e7c4"
+    
+  },
+  "player2": {
+    "username": "trymnene",
+    "_id": "6475b55ce70f8ff644c8e7c5"
+    
+  },
+  "scorePlayer1": 1,
+  "scorePlayer2": 3,
+  "winner": "trymnene",
+  "result": "(11 - 0)(0 - 11)(0 - 11)(0 - 11)",
+  "date": "2023-05-30T08:35:40.676Z"
+  ,
+  "matchId": 10,
+  "__v": 0
+},{
+  "_id": "6475b56ce70f8ff644c8e7cf"
+  ,
+  "player1": {
+    "username": "simen",
+    "_id": "6475b56ce70f8ff644c8e7d0"
+    
+  },
+  "player2": {
+    "username": "havala",
+    "_id": "6475b56ce70f8ff644c8e7d1"
+    
+  },
+  "scorePlayer1": 1,
+  "scorePlayer2": 3,
+  "winner": "havala",
+  "result": "(11 - 0)(0 - 11)(0 - 11)(0 - 11)",
+  "date": "2023-05-30T08:35:56.281Z"
+  ,
+  "matchId": 11,
+  "__v": 0
+},{
+  "_id": "6475b82fe70f8ff644c8e7ed"
+  ,
+  "player1": {
+    "username": "simen",
+    "_id": "6475b82fe70f8ff644c8e7ee"
+    
+  },
+  "player2": {
+    "username": "ingrid",
+    "_id": "6475b82fe70f8ff644c8e7ef"
+    
+  },
+  "scorePlayer1": 3,
+  "scorePlayer2": 2,
+  "winner": "simen",
+  "result": "(11 - 0)(1 - 11)(11 - 5)(5 - 11)(16 - 14)",
+  "date": "2023-05-30T08:47:43.336Z"
+  ,
+  "matchId": 12,
+  "__v": 0
+},{
+  "_id": "6475b866e70f8ff644c8e7fb"
+  ,
+  "player1": {
+    "username": "simen",
+    "_id": "6475b866e70f8ff644c8e7fc"
+    
+  },
+  "player2": {
+    "username": "trymnene",
+    "_id": "6475b866e70f8ff644c8e7fd"
+    
+  },
+  "scorePlayer1": 2,
+  "scorePlayer2": 3,
+  "winner": "trymnene",
+  "result": "(8 - 11)(13 - 11)(11 - 8)(4 - 11)(6 - 11)",
+  "date": "2023-05-30T08:48:38.532Z"
+  ,
+  "matchId": 13,
+  "__v": 0
+},{
+  "_id": "6475b8e9227100f5299cdeb4"
+  ,
+  "player1": {
+    "username": "trymnene",
+    "_id": "6475b8e9227100f5299cdeb5"
+    
+  },
+  "player2": {
+    "username": "ingrid",
+    "_id": "6475b8e9227100f5299cdeb6"
+    
+  },
+  "scorePlayer1": 3,
+  "scorePlayer2": 2,
+  "winner": "trymnene",
+  "result": "(6 - 11)(8 - 11)(11 - 8)(11 - 4)(11 - 6)",
+  "date": "2023-05-30T08:50:49.052Z"
+  ,
+  "matchId": 14,
+  "__v": 0
+}]

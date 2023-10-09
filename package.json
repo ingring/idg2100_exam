@@ -1,0 +1,19 @@
+{
+  "name": "idg2100",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "starter": "npm i && npm run server",
+    "server": "concurrently \"npm run frontend\" \"node initialize\"",
+    "frontend": "cd frontend && npm i && npm start",
+    "backend": "cd backend && npm i && node index",
+    "storybook": "cd frontend && npm run storybook"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "mongodb": "^5.5.0",
+    "mongodb-memory-server": "^8.12.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  }
+}

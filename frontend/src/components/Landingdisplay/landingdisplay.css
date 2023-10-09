@@ -1,0 +1,37 @@
+span.green {
+    color: #57EF85;
+  }
+  
+  span.red {
+    color: red;
+  }
+
+  span.bold {
+    font-weight: 500;
+  }
+
+  .landingdisplay {
+    background-color: #273043;
+    color: white;
+    padding: 2em;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 1.6em;
+    /* max-width: 13em; */
+    width: 100vw;
+  }
+  
+  div.landing {
+    display: flex;
+    /* margin: 3em 2em; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+@media (min-width: 900px) {
+    .landingdisplay {
+        border-radius: 2em;
+        width: auto;
+        max-width: 15em;
+    }
+}
